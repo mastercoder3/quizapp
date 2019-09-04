@@ -51,5 +51,9 @@ class AuthService{
     }, merge: true);
   }
 
+  Future<void> signOut() {
+    return _auth.signOut();
+  }
+
 
 }
